@@ -51,45 +51,74 @@ export default function(){
                             TV
                             <ul class="submenu-list">
                                 <li className="submenu-item">
-                                    Apple
+                                    Apple TV
                                     <ul className="sub2menu-list">
-                                        <li className="sub2menu-item">Apple 1</li>
-                                        <li className="sub2menu-item">Apple 2</li>
-                                        <li className="sub2menu-item">Apple 3</li>
-                                        <li className="sub2menu-item">Apple 4</li>
+                                        <li className="sub2menu-item">Apple TV 1</li>
+                                        <li className="sub2menu-item">Apple TV 2</li>
+                                        <li className="sub2menu-item">Apple TV 3</li>
+                                        <li className="sub2menu-item">Apple TV 4</li>
                                     </ul>
                                 </li>
                                 <li className="submenu-item">
-                                    Samsung
+                                    Samsung TV
                                     <ul className="sub2menu-list">
-                                        <li className="sub2menu-item">Apple 1</li>
-                                        <li className="sub2menu-item">Apple 2</li>
-                                        <li className="sub2menu-item">Apple 3</li>
-                                        <li className="sub2menu-item">Apple 4</li>
+                                        <li className="sub2menu-item">Samsung TV 1</li>
+                                        <li className="sub2menu-item">Samsung TV 2</li>
+                                        <li className="sub2menu-item">Samsung TV 3</li>
+                                        <li className="sub2menu-item">Samsung TV 4</li>
                                     </ul>
                                 </li>
                                 <li className="submenu-item">
-                                    Xiaomi
+                                    Xiaomi TV
                                     <ul className="sub2menu-list">
-                                        <li className="sub2menu-item">Apple 1</li>
-                                        <li className="sub2menu-item">Apple 2</li>
-                                        <li className="sub2menu-item">Apple 3</li>
-                                        <li className="sub2menu-item">Apple 4</li>
+                                        <li className="sub2menu-item">Xiaomi TV 1</li>
+                                        <li className="sub2menu-item">Xiaomi TV 2</li>
+                                        <li className="sub2menu-item">Xiaomi TV 3</li>
+                                        <li className="sub2menu-item">Xiaomi TV 4</li>
                                     </ul>
                                 </li>
                                 <li className="submenu-item">
-                                    LG
+                                    LG TV
                                     <ul className="sub2menu-list">
-                                        <li className="sub2menu-item">Apple 1</li>
-                                        <li className="sub2menu-item">Apple 2</li>
-                                        <li className="sub2menu-item">Apple 3</li>
-                                        <li className="sub2menu-item">Apple 4</li>
+                                        <li className="sub2menu-item">LG TV 1</li>
+                                        <li className="sub2menu-item">LG TV 2</li>
+                                        <li className="sub2menu-item">LG TV 3</li>
+                                        <li className="sub2menu-item">LG TV 4</li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                         <li class="menu-item">
                             Fridge
+                            <ul class="submenu-list">
+                                <li className="submenu-item">
+                                    Emersun
+                                    <ul className="sub2menu-list">
+                                        <li className="sub2menu-item">Emersun 1</li>
+                                        <li className="sub2menu-item">Emersun 2</li>
+                                        <li className="sub2menu-item">Emersun 3</li>
+                                        <li className="sub2menu-item">Emersun 4</li>
+                                    </ul>
+                                </li>
+                                <li className="submenu-item">
+                                    Deawoo
+                                    <ul className="sub2menu-list">
+                                        <li className="sub2menu-item">Deawoo 1</li>
+                                        <li className="sub2menu-item">Deawoo 2</li>
+                                        <li className="sub2menu-item">Deawoo 3</li>
+                                        <li className="sub2menu-item">Deawoo 4</li>
+                                    </ul>
+                                </li>
+                                <li className="submenu-item">
+                                    LG
+                                    <ul className="sub2menu-list">
+                                        <li className="sub2menu-item">LG 1</li>
+                                        <li className="sub2menu-item">LG 2</li>
+                                        <li className="sub2menu-item">LG 3</li>
+                                        <li className="sub2menu-item">LG 4</li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
                         <li class="menu-item">
                             Gift
