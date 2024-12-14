@@ -1,16 +1,23 @@
 import "./MegaMenu.css";
 
-export default function(){
+export default function () {
     return (
         <>
+            <h2>
+                Abolfazl Mega Menu
+            </h2>
             <div class="header-container">
                 <nav class="header-nav">
                     <ul>
                         <li class="menu-item">
-                            Mobile
+                            <h3>
+                                Mobile
+                            </h3>
                             <ul class="submenu-list">
                                 <li className="submenu-item">
-                                    Apple
+                                    <h4>
+                                        Apple
+                                    </h4>
                                     <ul className="sub2menu-list">
                                         <li className="sub2menu-item">Apple 1</li>
                                         <li className="sub2menu-item">Apple 2</li>
@@ -19,7 +26,9 @@ export default function(){
                                     </ul>
                                 </li>
                                 <li className="submenu-item">
-                                    Samsung
+                                    <h4>
+                                        Samsung
+                                    </h4>
                                     <ul className="sub2menu-list">
                                         <li className="sub2menu-item">Samsung 1</li>
                                         <li className="sub2menu-item">Samsung 2</li>
@@ -28,7 +37,9 @@ export default function(){
                                     </ul>
                                 </li>
                                 <li className="submenu-item">
-                                    Mi
+                                    <h4>
+                                        Mi
+                                    </h4>
                                     <ul className="sub2menu-list">
                                         <li className="sub2menu-item">Mi 1</li>
                                         <li className="sub2menu-item">Mi 2</li>
@@ -37,7 +48,9 @@ export default function(){
                                     </ul>
                                 </li>
                                 <li className="submenu-item">
-                                    Huawei
+                                    <h4>
+                                        Huawei
+                                    </h4>
                                     <ul className="sub2menu-list">
                                         <li className="sub2menu-item">Huawei 1</li>
                                         <li className="sub2menu-item">Huawei 2</li>
@@ -48,10 +61,14 @@ export default function(){
                             </ul>
                         </li>
                         <li class="menu-item">
-                            TV
+                            <h3>
+                                TV
+                            </h3>
                             <ul class="submenu-list">
                                 <li className="submenu-item">
-                                    Apple TV
+                                    <h4>
+                                        Apple TV
+                                    </h4>
                                     <ul className="sub2menu-list">
                                         <li className="sub2menu-item">Apple TV 1</li>
                                         <li className="sub2menu-item">Apple TV 2</li>
@@ -60,7 +77,9 @@ export default function(){
                                     </ul>
                                 </li>
                                 <li className="submenu-item">
-                                    Samsung TV
+                                    <h4>
+                                        Samsung TV
+                                    </h4>
                                     <ul className="sub2menu-list">
                                         <li className="sub2menu-item">Samsung TV 1</li>
                                         <li className="sub2menu-item">Samsung TV 2</li>
@@ -69,7 +88,9 @@ export default function(){
                                     </ul>
                                 </li>
                                 <li className="submenu-item">
-                                    Xiaomi TV
+                                    <h4>
+                                        Xiaomi TV
+                                    </h4>
                                     <ul className="sub2menu-list">
                                         <li className="sub2menu-item">Xiaomi TV 1</li>
                                         <li className="sub2menu-item">Xiaomi TV 2</li>
@@ -78,7 +99,9 @@ export default function(){
                                     </ul>
                                 </li>
                                 <li className="submenu-item">
-                                    LG TV
+                                    <h4>
+                                        LG TV
+                                    </h4>
                                     <ul className="sub2menu-list">
                                         <li className="sub2menu-item">LG TV 1</li>
                                         <li className="sub2menu-item">LG TV 2</li>
@@ -89,10 +112,14 @@ export default function(){
                             </ul>
                         </li>
                         <li class="menu-item">
-                            Fridge
+                            <h3>
+                                Fridge
+                            </h3>
                             <ul class="submenu-list">
                                 <li className="submenu-item">
-                                    Emersun
+                                    <h4>
+                                        Emersun
+                                    </h4>
                                     <ul className="sub2menu-list">
                                         <li className="sub2menu-item">Emersun 1</li>
                                         <li className="sub2menu-item">Emersun 2</li>
@@ -101,7 +128,9 @@ export default function(){
                                     </ul>
                                 </li>
                                 <li className="submenu-item">
-                                    Deawoo
+                                    <h4>
+                                        Deawoo
+                                    </h4>
                                     <ul className="sub2menu-list">
                                         <li className="sub2menu-item">Deawoo 1</li>
                                         <li className="sub2menu-item">Deawoo 2</li>
@@ -110,7 +139,10 @@ export default function(){
                                     </ul>
                                 </li>
                                 <li className="submenu-item">
-                                    LG
+                                    <h4>
+                                        LG
+                                    </h4>
+
                                     <ul className="sub2menu-list">
                                         <li className="sub2menu-item">LG 1</li>
                                         <li className="sub2menu-item">LG 2</li>
@@ -121,7 +153,9 @@ export default function(){
                             </ul>
                         </li>
                         <li class="menu-item">
-                            Gift
+                            <h3>
+                                Gift
+                            </h3>
                         </li>
                     </ul>
                 </nav>
