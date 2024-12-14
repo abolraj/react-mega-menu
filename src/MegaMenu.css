@@ -1,0 +1,102 @@
+.header-container {
+    width:80vw;
+    padding: 10px;
+    background-color: #404040;
+    border-radius: 30px;
+    position: sticky;
+    top: 0;
+}
+
+.header-nav {
+    width: 100%;
+
+}
+
+.header-nav ul {
+    list-style-type: "🧩";
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.header-nav > ul {
+    gap:30px;
+}
+
+.header-nav ul li {
+    border-bottom: 2px solid #151515;
+}
+
+.header-nav .submenu-list {
+    border-top:3px solid #606060;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-color: #303030;
+    position: absolute;
+    /* left: 0; */
+    top:100%;
+}
+
+.header-nav .sub2menu-list {
+    border-left:3px solid #606060;
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-color: #303030;
+    position: absolute;
+    left:100%;
+    top:0;
+}
+
+/* Manage hovering elements */
+/* Manage sub2menu */
+.header-nav .submenu-list .sub2menu-list{
+    display: none;
+}
+.header-nav .submenu-list .submenu-item:hover .sub2menu-list,
+.header-nav .submenu-list .submenu-item .sub2menu-list:hover {
+    display: flex;
+}
+/* make an area to fix touching spaces */
+.header-nav .submenu-list .submenu-item:hover .sub2menu-list::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 255, 200, 0.6);
+    top:-30px;
+    left:-50%;
+    z-index: 0;
+}
+
+/* Manage submenu */
+.header-nav > ul .menu-item .submenu-list {
+    display: none;
+}
+.header-nav > ul .menu-item:hover .submenu-list,
+.header-nav > ul .menu-item .submenu-list:hover {
+    display: flex;
+    z-index: 2;
+}
+/* Make an area to fix touching spaces */
+.header-nav > ul .menu-item:hover .submenu-list::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f009;
+    top:-30px;
+    left:-20%;
+    z-index: 0;
+}
+.header-nav > ul .menu-item:hover * {
+    z-index: 4;
+}
